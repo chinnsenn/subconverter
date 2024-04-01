@@ -94,7 +94,9 @@ public:
 RWLock cache_rw_lock;
 
 //std::string user_agent_str = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36";
-static std::string user_agent_str = "subconverter/" VERSION " cURL/" LIBCURL_VERSION;
+// static std::string user_agent_str = "subconverter/" VERSION " cURL/" LIBCURL_VERSION;
+
+static std::string user_agent_str = "User-Agent: ClashX Pro/1.72.0.4 (com.west2online.ClashXPro; build:1.72.0.4; macOS 12.0.1) Alamofire/5.4.4";
 
 struct curl_progress_data
 {
